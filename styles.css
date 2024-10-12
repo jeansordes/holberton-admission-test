@@ -46,3 +46,16 @@ p#smart_thumbnail_msg.hidden {
     opacity: 0%;
     font-size: small;
 }
+
+hr {
+    margin: 1rem;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+}
+
+.right>* {
+    margin: 0 5px;
+}
