@@ -23,3 +23,26 @@ aside {
 article, aside {
     overflow-y: auto;
 }
+
+small {
+    color: darkgray;
+    font-style: italic;
+    font-size: small;
+}
+
+img {
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+p#smart_thumbnail_msg {
+    transition: all 2s;
+    opacity: 100%;
+    font-size: larger;
+}
+
+p#smart_thumbnail_msg.hidden {
+    opacity: 0%;
+    font-size: small;
+}
